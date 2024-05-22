@@ -11,3 +11,5 @@ kubectl create secret docker-registry reg-cred-secret --docker-server=registry.p
 kubectl apply -f .
 ```
 
+## Deploy with Helm 
+`helm install test-registry charts/docker-registry/ --namespace test-registry --create-namespace`
