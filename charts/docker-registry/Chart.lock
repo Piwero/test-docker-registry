@@ -1,9 +1,0 @@
-dependencies:
-- name: piwhelm
-  repository: https://raw.githubusercontent.com/Piwero/piwhelm/gh-pages
-  version: 0.3.2
-- name: docker-registry
-  repository: https://helm.twun.io
-  version: 2.2.3
-digest: sha256:2f37f459afc9778c0dc2fd56bbda62a5e107051477525c64bffb4a26558e2a2f
-generated: "2024-05-21T07:32:09.175164+01:00"
