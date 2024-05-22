@@ -1,0 +1,14 @@
+apiVersion: v2
+name: test-registry
+description: A personalised TEST OCI repository that can get deployed with cloudflared and traefik
+type: application
+version: 0.0.1
+appVersion: "0.0.1"
+dependencies:
+  - name: piwhelm
+    version: "0.3.2"
+    repository: "https://raw.githubusercontent.com/Piwero/piwhelm/gh-pages"
+  - name: docker-registry
+    version: "2.2.3"
+    repository: "https://helm.twun.io"
+#    https://artifacthub.io/packages/helm/twuni/docker-registry
